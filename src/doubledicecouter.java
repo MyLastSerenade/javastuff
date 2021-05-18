@@ -8,7 +8,6 @@ public class doubledicecouter {
             int diceMax = 7;
             int diceRoll1;
             int diceRoll2;
-    
             do {
                 diceRoll1 = (int)(Math.random()*(diceMax - diceMin)) + diceMin;
                 diceRoll2 = (int)(Math.random()*(diceMax - diceMin)) + diceMin;
@@ -23,7 +22,6 @@ public class doubledicecouter {
                 System.out.println("Durchgang " + counter  +  " Zuletzt gewürfelte Zahl: " + diceRoll1 + " und " + diceRoll2 + " || " + " aktuelle augensumme: " + augenSumme);
         
            } while (diceRoll1 != 6 && diceRoll2 != 6);
-    
         } 
     }
 
