@@ -9,7 +9,7 @@ public class einsmaleins {
 		/*System.out.println("Welche Zahl m�chten Sie im 1x1 rechnen? Bitte geben sie ein: ");
 		int zahl = input.nextInt();
 		int Ergebnis; */
-		long startTime = System.currentTimeMillis();
+		//long startTime = System.currentTimeMillis();
 		
 		for(int i = 1; i <= 100; i++) {
 			for(int j = 1; j <= 100; j++) {
@@ -20,12 +20,12 @@ public class einsmaleins {
 		
 		input.close();
 		
-		float estimatedTime = System.currentTimeMillis() - startTime;
-		estimatedTime = (float) (estimatedTime/1_000_000_000.0);
-		estimatedTime = (float) (estimatedTime + 0.005);
-		estimatedTime = (int)(estimatedTime*1000);
-		estimatedTime = estimatedTime/1000;
-		System.out.print(estimatedTime);
+		//float estimatedTime = System.currentTimeMillis() - startTime;
+		//estimatedTime = (float) (estimatedTime/1_000_000_000.0);
+		//estimatedTime = (float) (estimatedTime + 0.005);
+		//estimatedTime = (int)(estimatedTime*1000);
+		//estimatedTime = estimatedTime/1000;
+		//System.out.print(estimatedTime);
 	} 
 
 }

@@ -35,16 +35,16 @@ public class lotto {
 		}
 
 		do {
-			sorted = true;
-			for (int i = 0; i < zahlen.length - 1; i++) {
+			sorted = false;
+			for (int i = 0; i < 5; i++) {
 				if (zahlen[i] > zahlen[i + 1]) {
 					buffer = zahlen[i + 1];
 					zahlen[i + 1] = zahlen[i];
 					zahlen[i] = buffer;
-					sorted = false;
+					sorted = true;
 				}
 			}
-		} while (!sorted);
+		} while (sorted);
 
 		for (int number : zahlen) {
 			System.out.print(number + " ");
